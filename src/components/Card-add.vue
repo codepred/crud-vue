@@ -71,7 +71,7 @@
       e.preventDefault();
 
       try {
-      var response = await fetch("http://localhost:8080/user", {
+      var response = await fetch("http://145.239.80.63:8080/user", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
